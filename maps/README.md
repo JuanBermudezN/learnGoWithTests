@@ -15,7 +15,7 @@ Errors can be converted to a string with the .Error() method, which we do when p
 In order to make this pass, we are using an interesting property of the map lookup. It can return 2 values. The second value is a boolean which indicates if the key was found successfully.
 This property allows us to differentiate between a word that doesn't exist and a word that just doesn't have a definition.
 
-## Mpas aand pointers
+## Maps aand pointers
 
 An interesting property of maps is that you can modify them without passing as an address to it (e.g &myMap)
 
